@@ -1,1 +1,1 @@
-# CS302
+# CS302 - Data Structures | Spring 2020
