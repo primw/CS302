@@ -1,0 +1,2 @@
+LinkedList.o: LinkedList.h LinkedList.cpp Node.h Node.cpp LinkedList.h
+Node.o: Node.h Node.cpp Node.h
