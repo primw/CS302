@@ -47,6 +47,7 @@ ItemType Stack<ItemType>::peek()
     else
     {
         cerr << "Your Stack is Empty!" << endl;
+        return ItemType();
     }
     
 }

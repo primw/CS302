@@ -110,7 +110,7 @@ int priority(char ch)
 }
 
 //Evaluate Postfix Function
-double evaluatePostfix(string expression)
+void evaluatePostfix(string expression)
 {   
     Stack<double> operandStack;
     double result = 0;
@@ -123,10 +123,10 @@ double evaluatePostfix(string expression)
         }
         else if (isOperator(expression[i]))
         {
-            char operand1 = operandStack.peek();
+            double operand1 = operandStack.peek();
             operandStack.pop();
 
-            char operand2 = operandStack.peek();
+            double operand2 = operandStack.peek();
             operandStack.pop();
 
             switch(expression[i])
@@ -141,7 +141,7 @@ double evaluatePostfix(string expression)
                     result = operand2 * operand1;
                     break;
                 case '/':
-                    result = operand2/operand2;
+                    result = operand2/operand1;
                     break;
                 case '^':
                     result = pow(operand2, operand1);

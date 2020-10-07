@@ -1,0 +1,3 @@
+Node.o: Node.h Node.cpp Node.h
+Stack.o: Stack.h Node.h Node.cpp Stack.cpp Stack.h
+Menu.o: Menu.h

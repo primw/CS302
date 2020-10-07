@@ -8,7 +8,7 @@ int precedence(char ch);
 bool isOperand(char ch);
 bool isOperator(char ch);
 void postFix(char str[]);
-double evaluatePostfix(std::string str);
+void evaluatePostfix(std::string str);
 int priority(char ch);
 
 #endif

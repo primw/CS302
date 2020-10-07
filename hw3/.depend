@@ -1,0 +1,3 @@
+InsertionSort.o: InsertionSort.h InsertionSort.cpp InsertionSort.h
+SelectionSort.o: SelectionSort.h SelectionSort.cpp SelectionSort.h
+MergeSort.o: MergeSort.h MergeSort.cpp MergeSort.h

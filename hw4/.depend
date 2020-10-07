@@ -1,0 +1,5 @@
+Node.o: Node.h Node.cpp Node.h
+PriorityNode.o: PriorityNode.h PriorityNode.cpp
+Queue.o: Queue.h Node.h Node.cpp Queue.cpp Queue.h
+PriorityQueue.o: PriorityQueue.h PriorityNode.h PriorityNode.cpp \
+ PriorityQueue.cpp PriorityQueue.h
